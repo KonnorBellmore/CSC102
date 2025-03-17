@@ -1,0 +1,65 @@
+/* Created by: Konnor Bellmore */
+/* Stylesheet for Avatar: The Last Airbender Fan Page */
+
+/* General body styling */
+body {
+    background-color: #00274D; /* Dark blue */
+    color: #FFD700; /* Golden yellow */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    background-color: #008000; /* Green */
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-right: 200px;
+    background-color: #FF4500; /* Fire Nation Red */
+    color: white;
+    padding: 10px;
+}
+
+/* Image styling */
+#memeImage {
+    margin-right: 200px;
+    width: 400px;
+    border: 3px solid #FFD700; /* Golden outline */
+    display: block;
+    margin: auto;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #87CEEB; /* Air Nomad Light Blue */
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px #333;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF; /* White text for readability */
+}
+
+/* Apply styles to the unordered list in boards.html */
+ul {
+    list-style-type: square;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
