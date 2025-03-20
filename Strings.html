@@ -1,0 +1,39 @@
+<!-- 
+    Created by: Konnor Bellmore  
+    Description: Palindrome Checker using HTML, CSS, and JavaScript  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Heading -->
+    <h1>Palindrome Checker</h1>
+
+    <!-- Description -->
+    <p>Enter a word or phrase below to check if it's a palindrome!</p>
+
+    <!-- Form for User Input -->
+    <form id="palindromeForm">
+        <label for="userInput">Enter a word or phrase:</label>
+        <input type="text" id="userInput" required>
+        <button type="submit">Check</button>
+    </form>
+
+    <!-- Display Results Here -->
+    <p id="result"></p>
+
+    <!-- Button to Restart the Process -->
+    <button id="restartBtn" onclick="restartCheck()">Check Another Word</button>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
