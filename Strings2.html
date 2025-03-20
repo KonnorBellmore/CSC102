@@ -1,0 +1,50 @@
+<!-- 
+    Created by: Konnor Bellmore  
+    Description: A webpage requiring user input validation before displaying a secret message.  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message Access</title>
+    <link rel="stylesheet" href="main.css"> <!-- Linking external CSS -->
+</head>
+<body>
+    <!-- Main Header -->
+    <h1>Enter Your Credentials to Unlock the Secret Message</h1>
+
+    <!-- Form Section -->
+    <form onsubmit="validateForm(event)">
+        <!-- First Name Input -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+        <br><br>
+
+        <!-- Last Name Input -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+        <br><br>
+
+        <!-- ZIP Code Input -->
+        <label for="zipCode">ZIP Code:</label>
+        <input type="text" id="zipCode" required>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Validation Message Section -->
+    <p id="validationMessage"></p>
+
+    <!-- Secret Message Section -->
+    <p id="secretMessage" style="display: none; font-weight: bold; color: green;">
+        Congratulations! You've unlocked the secret: "With great power comes great responsibility."
+    </p>
+
+    <!-- Linking External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
